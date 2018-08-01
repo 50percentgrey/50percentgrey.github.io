@@ -1,0 +1,85 @@
+@import "http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100";
+
+html, body{
+	background-color: #f3f3f3;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300
+}
+
+header{
+	height: 380px;
+	background-color: #690084
+}
+
+
+h1,h2,h3{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400
+}
+
+.iphone{
+	position: relative;
+	width: 360px;
+	height: 599px;
+	background: url(../img/iphone.png) no-repeat;
+	margin: 0 auto;
+}
+
+.iphone img
+{
+	margin-left: 88px;
+    margin-top: 134px
+}
+
+.space{
+	padding-bottom: 180px
+}
+
+.txt{
+	margin: 20px;
+}
+
+#applestore{
+	position: relative;
+	width: 162px;
+	height: 55px;
+	margin: 90px auto;
+	display: block
+}
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
