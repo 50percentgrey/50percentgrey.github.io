@@ -19,7 +19,9 @@
             h1 {
                 font-family: 'Slabo 27px', serif;
                 color: #333333;
-                font-size: 42px
+                margin: 40px;
+                font-size: 42px;
+                width: 85%
             }
             a, a:visited {
                 font-size: 16px;
@@ -28,13 +30,19 @@
             a:hover {
                 text-decoration: underline
             }
+
+            @media only screen and (min-width: 600px) {
+                h1 {
+                    width: 40%
+                }
+            }
         </style>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <h1 style="width: 40%">
+        <h1>
             I'm a digital artist and creative developer with more than 17+ years experience on web, multmidia, interface and digital craft. 
             I'm based in São Paulo working as a Software Engineer for Mobile Platforms at R/GA.
         </h1>
